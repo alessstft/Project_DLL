@@ -1,0 +1,10 @@
+{
+	"open_file": {
+		"args": "D:\\proect_dll\\test.txt",
+		"iters": 1
+	},
+	"close_file": {
+		"args": null,
+		"iters": 1
+	}
+}
