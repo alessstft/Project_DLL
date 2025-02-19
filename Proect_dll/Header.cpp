@@ -41,3 +41,36 @@ void save() {
         cerr << "Error: File was not open." << endl;
     }
 }
+
+
+void delete_file(const char* path) {
+    if (remove(path) != 0) {
+        cout << "Error deleting file";
+    }
+    else {
+        cout << "File successfully deleted";
+    }
+}
+
+void count_words(const char* path) {
+    ifstream file;
+    file.open(path);
+    std::string word;
+    unsigned count = 0;
+    while (file >> word)
+    {
+        count++;
+    }
+    cout << "Word count: " << count << endl;
+    file.close();
+}
+
+void write(const char* path) {
+    ofstream file;
+    file.open(path);
+    string str = "apple pie";
+    cout << "Text: ";
+    getline(cin, str);
+    file << str;
+    file.close();
+}
