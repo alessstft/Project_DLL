@@ -7,4 +7,22 @@
 		"args": null,
 		"iters": 1
 	}
+
+	"count_words": {
+		"args": "D:\\proect_dll\\test.txt",
+		"iters": 1
+	},
+	"save": {
+		"args": null,
+		"iters": 1
+	},
+    
+    "write": {
+        "args": "D:\\proect_dll\\test.txt",
+        "iters": [1]
+    },
+	"delete_file": {
+        "args": "D:\\proect_dll\\test.txt",
+        "iters": 1
+    },
 }
