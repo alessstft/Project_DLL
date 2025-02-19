@@ -1,12 +1,8 @@
-﻿  pch.cpp
-  dllmain.cpp
-  Header.cpp
-D:\proect_dll\Proect_dll\Header.cpp(10,34): warning C4273: open_file: несовместимое связывание dll
+﻿  Header.cpp
+D:\proect_dll\Proect_dll\Header.cpp(12,34): warning C4273: open_file: несовместимое связывание dll
 D:\proect_dll\Proect_dll\Header.h(12,18): message : см. предыдущее определение "open_file"
-D:\proect_dll\Proect_dll\Header.cpp(16,19): warning C4273: close_file: несовместимое связывание dll
+D:\proect_dll\Proect_dll\Header.cpp(24,19): warning C4273: close_file: несовместимое связывание dll
 D:\proect_dll\Proect_dll\Header.h(13,18): message : см. предыдущее определение "close_file"
-D:\proect_dll\Proect_dll\Header.cpp(20,13): warning C4273: save: несовместимое связывание dll
+D:\proect_dll\Proect_dll\Header.cpp(34,13): warning C4273: save: несовместимое связывание dll
 D:\proect_dll\Proect_dll\Header.h(14,18): message : см. предыдущее определение "save"
-  Создание кода...
-     Создается библиотека D:\proect_dll\Proect_dll\x64\Debug\Proect_dll.lib и объект D:\proect_dll\Proect_dll\x64\Debug\Proect_dll.exp
   Proect_dll.vcxproj -> D:\proect_dll\Proect_dll\x64\Debug\Proect_dll.dll
