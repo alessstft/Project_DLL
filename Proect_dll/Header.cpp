@@ -67,7 +67,7 @@ void count_words(const char* path) {
 
 void write(const char* path) {
     ofstream file;
-    file.open(path);
+    file.open(path, ios::app);
     string str = "apple pie";
     cout << "Text: ";
     getline(cin, str);
