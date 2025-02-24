@@ -54,7 +54,7 @@ void count_words(const char* path) {
     file.close();
 }
 
-void write_file(const char* path, const char* str) {
+void write(const char* path, const char* str) {
     ofstream file;
     file.open(path, ios::app);
     file << str;
