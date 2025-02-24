@@ -1,24 +1,28 @@
 {
 	"open_file": {
-		"args": "D:\\proect_dll\\test.txt",
+		"args": ["C:\\Users\\studentcoll\\Downloads\\Project_DLL-main\\Project_DLL-main\\test.txt"],
 		"iters": 1
 	},
-	"save_and_close": {
+	"close_file": {
 		"args": null,
 		"iters": 1
 	},
 
 	"count_words": {
-		"args": "D:\\proect_dll\\test.txt",
+		"args": ["C:\\Users\\studentcoll\\Downloads\\Project_DLL-main\\Project_DLL-main\\test.txt"],
+		"iters": 1
+	},
+	"save": {
+		"args": null,
 		"iters": 1
 	},
     
     "write": {
-        "args": "D:\\proect_dll\\test.txt",
-        "iters": [1]
+        "args": ["C:\\Users\\studentcoll\\Downloads\\Project_DLL-main\\Project_DLL-main\\test.txt"],
+        "iters": 1
     },
 	"delete_file": {
-        "args": "D:\\proect_dll\\test.txt",
-        "iters": 1
-    }
+		"args": ["C:\\Users\\studentcoll\\Downloads\\Project_DLL-main\\Project_DLL-main\\test.txt"],
+		"iters": 1
+	}
 }
