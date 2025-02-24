@@ -10,8 +10,7 @@
 
 extern "C" {
     DLL_API void open_file(const char* path);
-    DLL_API void close_file();
-    DLL_API void save();
+    DLL_API void save_and_close();
     DLL_API void delete_file();
     DLL_API void count_words();
     DLL_API void write();

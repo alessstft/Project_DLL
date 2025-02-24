@@ -21,17 +21,7 @@ void open_file(const char* path) {
     }
 }
 
-void close_file() {
-    cerr << "Attempting to close file." << endl;
-    if (out_.is_open()) {
-        out_.close();
-        cerr << "File closed successfully." << endl;
-    } else {
-        cerr << "Error: File was not open." << endl;
-    }
-}
-
-void save() {
+void save_and_close() {
     cerr << "Attempting to save file." << endl;
     if (out_.is_open()) {
         out_.flush();
@@ -41,7 +31,6 @@ void save() {
         cerr << "Error: File was not open." << endl;
     }
 }
-
 
 void delete_file(const char* path) {
     if (remove(path) != 0) {
@@ -70,7 +59,7 @@ void write(const char* path) {
     file.open(path, ios::app);
     string str = "apple pie";
     cout << "Text: ";
-    getline(cin, str);
+    //getline(cin, str);
     file << str;
     file.close();
 }
