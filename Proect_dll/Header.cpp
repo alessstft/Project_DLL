@@ -33,7 +33,8 @@ void save_and_close() {
 }
 
 void delete_file(const char* path) {
-    if (remove(path) != 0) {
+    int status = remove(path);
+    if (status != 0) {
         cout << "Error deleting file";
     }
     else {
@@ -41,17 +42,17 @@ void delete_file(const char* path) {
     }
 }
 
-void count_words(const char* path) {
+int count_words(const char* path) {
     ifstream file;
     file.open(path);
-    std::string word;
-    unsigned count = 0;
+    string word;
+    int count = 0;
     while (file >> word)
     {
         count++;
     }
-    cout << "Word count: " << count << endl;
     file.close();
+    return count;
 }
 
 void write(const char* path, const char* str) {
