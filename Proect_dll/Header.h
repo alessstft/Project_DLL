@@ -13,7 +13,7 @@ extern "C" {
     DLL_API void save();
     DLL_API void delete_file(const char* path);
     DLL_API void count_words(const char* path);
-    DLL_API void write_file(const char* path, const char* str);
+    DLL_API void write(const char* path, const char* str);
 }
 
 #endif
