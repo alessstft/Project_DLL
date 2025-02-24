@@ -3,17 +3,13 @@
 		"args": ["C:\\Users\\studentcoll\\Downloads\\Project_DLL-main\\Project_DLL-main\\test.txt"],
 		"iters": 1
 	},
-	"close_file": {
+	"save_and_close": {
 		"args": null,
 		"iters": 1
 	},
 
 	"count_words": {
 		"args": ["C:\\Users\\studentcoll\\Downloads\\Project_DLL-main\\Project_DLL-main\\test.txt"],
-		"iters": 1
-	},
-	"save": {
-		"args": null,
 		"iters": 1
 	},
     

@@ -2,9 +2,15 @@
   dllmain.cpp
   Header.cpp
 D:\proect_dll\Proect_dll\Header.cpp(12,34): warning C4273: open_file: несовместимое связывание dll
-D:\proect_dll\Proect_dll\Header.h(12,18): message : см. предыдущее определение "open_file"
+D:\proect_dll\Proect_dll\Header.h(11,18): message : см. предыдущее определение "open_file"
 D:\proect_dll\Proect_dll\Header.cpp(24,23): warning C4273: save_and_close: несовместимое связывание dll
-D:\proect_dll\Proect_dll\Header.h(13,18): message : см. предыдущее определение "save_and_close"
+D:\proect_dll\Proect_dll\Header.h(12,18): message : см. предыдущее определение "save_and_close"
+D:\proect_dll\Proect_dll\Header.cpp(35,36): warning C4273: delete_file: несовместимое связывание dll
+D:\proect_dll\Proect_dll\Header.h(13,18): message : см. предыдущее определение "delete_file"
+D:\proect_dll\Proect_dll\Header.cpp(45,35): warning C4273: count_words: несовместимое связывание dll
+D:\proect_dll\Proect_dll\Header.h(14,17): message : см. предыдущее определение "count_words"
+D:\proect_dll\Proect_dll\Header.cpp(58,47): warning C4273: write: несовместимое связывание dll
+D:\proect_dll\Proect_dll\Header.h(15,18): message : см. предыдущее определение "write"
   Создание кода...
      Создается библиотека D:\proect_dll\Proect_dll\x64\Debug\Proect_dll.lib и объект D:\proect_dll\Proect_dll\x64\Debug\Proect_dll.exp
   Proect_dll.vcxproj -> D:\proect_dll\Proect_dll\x64\Debug\Proect_dll.dll
