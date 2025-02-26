@@ -13,6 +13,9 @@ extern "C" {
     DLL_API void delete_file(const char* path);
     DLL_API int count_words(const char* path);
     DLL_API void write(const char* path, const char* str);
+    DLL_API const char* read_file(const char* path);
+    DLL_API bool search_in_file(const char* path, const char* thing);
+    DLL_API size_t get_file_size(const char* path);
 }
 
 #endif
