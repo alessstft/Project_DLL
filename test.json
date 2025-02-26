@@ -17,6 +17,18 @@
         "args": ["C:\\Users\\studentcoll\\Downloads\\Project_DLL-main\\Project_DLL-main\\test.txt"],
         "iters": 1
     },
+	"read_file": {
+		"args": ["C:\\Users\\studentcoll\\Downloads\\Project_DLL-main\\Project_DLL-main\\test.txt"],
+		"iters": 1
+	},
+	"search_in_file": {
+		"args": ["C:\\Users\\studentcoll\\Downloads\\Project_DLL-main\\Project_DLL-main\\test.txt", "a"],
+		"iters": 1
+	},
+	"get_file_size": {
+		"args": ["C:\\Users\\studentcoll\\Downloads\\Project_DLL-main\\Project_DLL-main\\test.txt"],
+		"iters": 1
+	},
 	"delete_file": {
 		"args": ["C:\\Users\\studentcoll\\Downloads\\Project_DLL-main\\Project_DLL-main\\test.txt"],
 		"iters": 1
