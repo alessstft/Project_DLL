@@ -3,6 +3,11 @@
 #include <iostream>
 #include <fstream>
 #include <windows.h>
+#include <string>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <stdbool.h>
 
 using namespace std;
 
